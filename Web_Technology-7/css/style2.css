@@ -1,0 +1,28 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background: #fff;
+}
+th, td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #e8e8e8;
+}
+th {
+    background: #f0f8ff;
+    color: #007bff;
+    font-weight: bold;
+    font-size: 16px;
+}
+tr:hover {
+    background: #f7faff;
+}
+@media (max-width: 700px) {
+    .container, .edit-box, .profile-container, .home-container {
+        width: 96% !important;
+        padding: 12px !important;
+    }
+    table, th, td {
+        font-size: 14px;
+    }
+}
